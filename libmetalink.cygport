@@ -1,13 +1,13 @@
 NAME="libmetalink"
 VERSION=0.1.2
 RELEASE=1
-CATEGORY="Net"
+CATEGORY="Libs"
 SUMMARY="Metalink XML parser library"
 DESCRIPTION="libmetalink is a Metalink library written in C language. It is
 intended to provide the programs written in C to add Metalink functionality
 such as parsing Metalink XML files."
 HOMEPAGE="https://launchpad.net/libmetalink/"
-SRC_URI="${HOMEPAGE}/trunk/packagingfix/+download/${P}.tar.bz2"
+SRC_URI="${HOMEPAGE}/trunk/packagingfix/+download/${NAME}-${VERSION}.tar.bz2"
 
 PKG_NAMES="libmetalink3 libmetalink-devel"
 libmetalink3_CONTENTS="usr/bin/cygmetalink-3.dll usr/share/doc/"
